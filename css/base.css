@@ -1,9 +1,42 @@
-.nowrap{
-    white-space: nowrap;
+header{
+  background-color: #F8F8F8;
 }
-@media(max-width:48em){
-    table .btn{
-        font-size: 0.75rem;
-        font-size: 3.5vw;
-    }
+ul{
+  margin: 0;
+}
+header a,
+header li{
+  padding: 1.4rem 0;
+  color: #777;
+  font-weight: bold;
+}
+section#intro-header{
+    background-image: url(../imgs/background.jpg);
+    background-size: cover;
+}
+section#intro-header .wrap-headline{
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+section#intro-header h1,
+section#intro-header h2{
+  color: #FFF
+}
+section#intro-header h2{
+  font-size: 1.5rem;
+}
+section#intro-header hr{
+  width: 10%;
+}
+section#intro-header .btn-default{
+  background-color: rgb(255, 255, 255, 0.5);
+  border: none;
+}
+section#about img {  
+  margin-top: 6.5rem;  
+  margin-bottom: 5rem;
+}
+section#about h3 {  
+  margin-top: 10rem;
 }
